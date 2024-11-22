@@ -1,12 +1,20 @@
-let required = true;
+let rohini = true;
 
-if (!required) {
+if (required) {
   console.log("condition satisfied");
 } else {
   console.log("condition not satisfied");
 }
 
+
+
+
+
+
+
 let a = 10;
+
+
 if (a == 11) {
   console.log("succesfull");
 } else {
@@ -19,15 +27,25 @@ if (a == 11) {
 
 // while()
 
-// while(true){
-//     console.log("i am inside the loop")
+
+//syntax
+
+// while (condition) {
+//   // code block to be executed
 // }
 
-// let i = 0
-// while(i>10){
-//     i++
-//     console.log(i)
-// }
+
+
+
+while(true){
+    console.log("i am inside the loop")
+}
+
+let i = 0
+while(i>10){
+    i++
+    console.log(i)
+}
 
 // do while loop
 console.log("****************************");
@@ -45,6 +63,8 @@ console.log("******************");
 //     console.log(k);
 //   }
 // }
+
+
 let n = 0
 for (let k = 1; k <= 100; k++) {
   if (k % 2 == 0 && k % 5 == 0) {
